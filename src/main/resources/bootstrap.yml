@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: config-server
+    name: config-service
 
   profiles:
     active: git
@@ -12,7 +12,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/ThxForService/configServer.git
+          uri: https://github.com/ThxForService/configRepo
           searchPaths: configs
           default-label: master
 encrypt:
